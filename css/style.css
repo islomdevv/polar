@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.polar__section__one {
+    width: 100%;
+    height: 619px;
+    background: #f5e3e8;
+}
+
+.polar__section__one__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.polar__section__one__header ul {
+    display: flex;
+    justify-content: center;
+}
+
+.polar__section__one__header ul li {
+    list-style: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 30px;
+}
+
+.polar__section__one__header ul li a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+}
+
+.polar__section__one__header__a {
+    margin-top: 20px;
+    color: #fff;
+    background: #D23166;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.polar__section__one__hero__icon1 {
+    width: 300px;
+    height: 300px;
+}
+
+.polar__section__one__hero {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 195px;
+
+}
+
+.polar__section__one__hero__image {
+    background-image: url(../images/Ellipse\ 18.png);
+    width: 300px;
+    height: 290px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.polar__section__one__hero__image__cream {
+    width: 460px;
+    height: auto;
+    margin-top: -200px;
+    margin-left: -90px;
+}
+
+.polar__section__one__hero__image__milk {
+    width: 610px;
+    height: auto;
+    margin-top: -350px;
+    margin-left: -186px;
+
+}
+
+.polar__section__one__hero ul li {
+    list-style: none;
+}
+
+.polar__section__one__hero__Sweet {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.polar__section__one__hero ul li h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.polar__section__one__hero ul {
+    margin-top: -100px;
+}
+
+.polar__section__one__hero__Some {
+    color: black;
+    opacity: 0.6;
+    line-height: 22px;
+    margin-bottom: 45px;
+}
+
+.polar__section__one__hero__a {
+    text-decoration: none;
+    background-color: #D23166;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.polar__section__one__hero__span {
+    color: #D23166;
+}
+
+.polar__section__one__hero__service {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 90px;
+}
+
+.polar__section__one__hero__service ul li {
+    list-style: none;
+}
+
+.polar__section__one__hero__service__Shipping ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.polar__section__one__hero__service__Packaging ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.polar__section__one__hero__service__Money ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.polar__section__one__hero__service__Delivery ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.polar__section__one__hero__service__Shipping {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    width: 220px;
+    height: 190px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.polar__section__one__hero__service__Shipping h3 {
+    padding-bottom: 10px;
+    color: black;
+    padding: 15px 0px 18px 0px;
+}
+
+.polar__section__one__hero__service__Packaging {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    width: 220px;
+    height: 190px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.polar__section__one__hero__service__Packaging h3 {
+    padding-bottom: 10px;
+    color: black;
+    padding: 15px 0px 18px 0px;
+}
+
+.polar__section__one__hero__service__Money {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    width: 220px;
+    height: 190px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.polar__section__one__hero__service__Money h3 {
+    padding: 15px 0px 18px 0px;
+    color: black;
+}
+
+.polar__section__one__hero__service__Delivery {
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    width: 220px;
+    height: 190px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.polar__section__one__hero__service__Delivery h3 {
+    padding-bottom: 10px;
+    color: black;
+    padding: 15px 0px 18px 0px;
+}
+
+.polar__section__one__hero__service__text {
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.polar__section__one__hero__service__Shipping:hover {
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+
+.polar__section__one__hero__service__Packaging:hover {
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+
+.polar__section__one__hero__service__Money:hover {
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+
+.polar__section__one__hero__service__Delivery:hover {
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+}
+
+.Polar__section__two__main {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Polar__section__two__main__ff {
+    background-image: url(../images/Ellipse\ 20.png);
+    width: 400px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -400px;
+}
+
+.Polar__section__two__main__ffff {
+    margin-top: -500px;
+    margin-left: -125px;
+}
+
+.Polar__section__two__main ul li {
+    list-style: none;
+}
+
+.Polar__section__two__main ul li h2 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.Polar__section__two__main ul li p {
+    color: black;
+    line-height: 22px;
+    margin-bottom: 30px;
+    opacity: 0.7;
+}
+
+.Polar__section__two__main a {
+    text-decoration: none;
+    background-color: #D23166;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+}
+
+.Polar__section__two {
+    width: 100%;
+    height: 550px;
+    background: #f5e3e8;
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+
+.polar_section__three {
+    width: 100%;
+    height: 1850px;
+}
+
+.polar_section__three__header {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.polar_section__three__header h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+}
+
+.polar_section__three__header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.polar_section__three__header ul li {
+    list-style: none;
+}
+
+.polar_section__three__header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+
+.polar_section__three__main ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.polar_section__three__main__item1 {
+    width: 400px;
+    height: 400px;
+    padding-top: 80px;
+}
+
+.polar_section__three__main__item1 h3 {
+    padding-bottom: 15px;
+    font-weight: 750;
+
+}
+
+.polar_section__three__main__item1__text {
+    color: black;
+    opacity: 0.7;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+
+.polar_section__three__main__item1__inner {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.polar_section__three__main__item2 {
+    display: flex;
+}
+
+.polar_section__three__main__item2 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.polar_section__three__main__item2__icon {
+    width: 50px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: 25px;
+}
+
+.polar_section__three__main__item1 a {
+    text-decoration: none;
+    background-color: #D23166;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+}
+
+.polar_section__three__main__item3 {
+    text-align: end;
+}
+
+.polar_section__three__main__item3 h3 {
+    font-weight: 750;
+    padding-bottom: 15px;
+}
+
+.polar_section__three__main__item3__text {
+    color: black;
+    opacity: 0.7;
+    line-height: 22px;
+    padding-bottom: 20px;
+}
+
+.polar_section__three__main__item3 {
+    margin-right: 50px;
+}
+
+.polar_section__three__main__item4 {
+    display: flex;
+    margin-left: 285px;
+}
+
+.polar_section__three__main__item4__icon {
+    width: 50px;
+    height: 20px;
+    padding-left: 5px;
+    padding-top: 3px;
+    margin-bottom: 25px;
+}
+
+.polar_section__three__main__item4 p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.polar_section__three__main__item3 a {
+    text-decoration: none;
+    background-color: #D23166;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 5px;
+}
+
+.polar_section__three__main__item3 {
+    width: 400px;
+    height: 400px;
+    padding-top: 80px;
+}
+
+.polar_section__three__main__item6 {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.polar_section__three__main__item6 p {
+    line-height: 22px;
+
+}
+
+.polar_section__three__main__item6__icon {
+    margin-right: 15px;
+}
+
+.polar_section__three__main__item6 p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.polar_section__three__main__item7 p {
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+.polar_section__three__main__item7 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.polar_section__three__main__item7__img1 {
+    width: 13px;
+    height: 13px;
+    margin-top: -18px;
+    margin-right: -8px;
+}
+
+.polar_section__three__main__item7__img2 {
+    width: 13px;
+    height: 13px;
+    margin-top: 30px;
+    margin-left: -65px;
+}
+
+.polar_section__three__main__item8 {
+    display: flex;
+    justify-content: start;
+    padding-right: 15px;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.good {
+    border-radius: 50%;
+}
+
+.polar__section__five__main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.polar__section__five {
+    background: #f5e3e8;
+    ;
+    width: 100%;
+    height: 650px;
+    padding-top: 100px;
+}
+
+.polar__section__five__main__right__ul {
+    display: flex;
+
+}
+
+.polar__section__five__main__right__images {}
+
+.polar__section__five__main__right__text a p {
+    padding-bottom: 20px;
+}
+
+.polar__section__five__main__right__inner {
+    display: flex;
+    margin-top: 15px;
+}
+
+.polar__section__five__main__right__text {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.polar__section__five__main__right__text a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.polar__section__five__main__right {
+    margin-top: -150px;
+    margin-left: 85px;
+}
+
+.polar__section__five__main__left__image {
+    width: 285px;
+    height: auto;
+    border-radius: 27px;
+}
+
+.polar__section__five__main__right h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.polar__section__five__main__right__p {
+    color: black;
+    opacity: 0.6;
+    padding-bottom: 10px;
+}
+
+.polar__section__six {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.polar__section__six h2 {
+    font-size: 35px;
+}
+
+.polar__section__six span {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.polar__section__six__input {
+    width: 400px;
+    height: 40px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+    padding-left: 15px;
+}
+
+.polar__section__six__btn {
+    width: 85px;
+    height: 40px;
+    border-radius: 5px;
+    background: #D64374;
+    border: none;
+    color: #fff;
+}
+
+.polar__section__footer {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+
+}
+
+.polar__section__footer__main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.polar__section__footer__main a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.polar__section__footer__main p {
+    color: #fff;
+    opacity: 0.7;
+    line-height: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.polar__section__footer__main__input {
+    width: 225px;
+    height: 40px;
+    border: 2px solid #D64374;
+    background: #0A0808;
+    margin: 10px 0px 15px 0px;
+    padding-left: 15px;
+
+}
+
+.polar__section__footer__main__btn {
+    width: 85px;
+    height: 40px;
+    color: #fff;
+    background: #0A0808;
+    border: 2px solid #D64374;
+    background: #D23166;
+}
+
+.polar__section__one__header ul li a:hover {
+    color: #D23166;
+}
+
+.polar_section__three__header ul li a:hover {
+    opacity: 1;
+    border-bottom: 2px solid #D23166;
+}
+
+.polar__section__footer__main__ul1 a:hover {
+    opacity: 1;
+}
+
+.polar__section__footer__main__ul2 a:hover {
+    opacity: 1;
+}
